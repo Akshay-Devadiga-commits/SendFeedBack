@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 app = Flask(__name__)
+CORS(app)  # This will allow all domains to make requests to this Flask app
 
 EMAIL_USER = 'hospital.carecloud@gmail.com'
 EMAIL_PASSWORD = 'wkig gfnc ohcq ywso'  # Use an App Password if needed
