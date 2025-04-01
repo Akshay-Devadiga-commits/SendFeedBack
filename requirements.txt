@@ -1,0 +1,3 @@
+Flask==2.2.3
+smtplib==3.0.0
+Gunicorn==20.1.0
