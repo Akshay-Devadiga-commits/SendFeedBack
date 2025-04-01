@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 EMAIL_USER = 'hospital.carecloud@gmail.com'
 EMAIL_PASSWORD = 'wkig gfnc ohcq ywso'  # Use an App Password if needed
-RECIPIENT_EMAIL = 'receiveremail@gmail.com'
+RECIPIENT_EMAIL = 'forgotemail169@gmail.com'
 
 @app.route('/report-bug', methods=['POST'])
 def report_bug():
